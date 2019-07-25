@@ -7,9 +7,11 @@
   "author": "MDBootstrap",
   "license": "MIT",
   "scripts": {
-    "scss:lint": "stylelint \"scss/**/*.scss\""
+    "scss:lint": "stylelint \"scss/**/*.scss\"",
+    "scss:lint:vars": "fusv scss/"
   },
   "devDependencies": {
+    "find-unused-sass-variables": "^0.4.1",
     "stylelint": "^10.1.0",
     "stylelint-config-twbs-bootstrap": "^0.4.0"
   }
