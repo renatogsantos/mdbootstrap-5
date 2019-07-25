@@ -7,7 +7,7 @@
   "author": "MDBootstrap",
   "license": "MIT",
   "scripts": {
-    "scss:lint": "stylelint \"scss/**/*.scss\"",
+    "scss:lint": "stylelint \"scss/**/*.scss\" --fix",
     "scss:lint:vars": "fusv scss/"
   },
   "devDependencies": {

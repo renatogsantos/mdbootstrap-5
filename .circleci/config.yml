@@ -24,5 +24,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: yarn scss:lint
-      - run: yarn scss:lint:vars
+      #- run: yarn scss:lint
