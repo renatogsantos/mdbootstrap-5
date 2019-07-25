@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "scss:lint": "stylelint \"scss/**/*.scss\" --fix",
-    "scss:lint:vars": "fusv scss/"
+    "scss:lint:vars": "fusv scss/",
+    "netlify-collect-static": "sh build/netlify-deploy.sh"
   },
   "devDependencies": {
     "find-unused-sass-variables": "^0.4.1",
