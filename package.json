@@ -8,5 +8,8 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Test passed\""
+  },
+  "devDependencies": {
+    "stylelint": "^10.1.0"
   }
 }
