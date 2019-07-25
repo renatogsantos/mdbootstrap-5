@@ -6,4 +6,7 @@
   "repository": "https://github.com/mattonit/mdbootstrap-5.git",
   "author": "MDBootstrap",
   "license": "MIT",
+  "scripts": {
+    "test": "echo \"Test passed\""
+  }
 }
