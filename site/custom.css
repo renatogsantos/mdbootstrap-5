@@ -1,0 +1,13 @@
+/**
+ * Custom styles for the demo page
+ */
+
+.mdb-logo {
+  width: 80px;
+  overflow: hidden;
+  text-indent: -999px;
+  background-image: url("https://mdbootstrap.com/wp-content/uploads/2018/06/logo-mdb-jquery-small.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
