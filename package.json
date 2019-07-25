@@ -1,0 +1,10 @@
+{
+  "name": "mdbootstrap-5",
+  "version": "5.0.0-alpha",
+  "description": "MDBootstrap with Bootstrap 5",
+  "main": "dist/mdb.js",
+  "repository": "git@github.com:mattonit/mdbootstrap-5.git",
+  "author": "mattonit",
+  "license": "MIT",
+  "private": false
+}
