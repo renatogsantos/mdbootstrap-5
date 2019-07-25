@@ -36,7 +36,6 @@ $rfs-rem-value: 16 !default;
 $rfs-safari-iframe-resize-bug-fix: false !default;
 
 // Disable RFS by setting $enable-responsive-font-sizes to false
-// stylelint-disable  declaration-no-important
 $enable-responsive-font-sizes: true !important;
 
 // Cache $rfs-base-font-size unit
@@ -169,7 +168,7 @@ $rfs-breakpoint-unit-cache: unit($rfs-breakpoint);
 
           @if $rfs-safari-iframe-resize-bug-fix {
             // stylelint-disable-next-line length-zero-no-unit
-            min-width: 0;
+            min-width: 0vw;
           }
         }
       }
@@ -187,7 +186,7 @@ $rfs-breakpoint-unit-cache: unit($rfs-breakpoint);
 
           @if $rfs-safari-iframe-resize-bug-fix {
             // stylelint-disable-next-line length-zero-no-unit
-            min-width: 0;
+            min-width: 0vw;
           }
         }
       }

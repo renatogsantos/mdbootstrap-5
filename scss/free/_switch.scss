@@ -8,40 +8,42 @@
     display: none;
     &:checked {
       + .slider {
-        background-color: #2196f3;
-        &::before {
+        background-color: #2196F3;
+        &:before {
           transform: translateX(26px);
         }
       }
     }
     &:focus {
       + .slider {
-        box-shadow: 0 0 1px #2196f3;
+        box-shadow: 0 0 1px #2196F3;
       }
     }
   }
   .slider {
     position: absolute;
+    cursor: pointer;
     top: 0;
+    left: 0;
     right: 0;
     bottom: 0;
-    left: 0;
-    cursor: pointer;
     background-color: #ccc;
+    -webkit-transition: .4s;
     transition: .4s;
-    &::before {
+    &:before {
       position: absolute;
-      bottom: 4px;
-      left: 4px;
-      width: 26px;
-      height: 26px;
       content: "";
-      background-color: $white;
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
       transition: .4s;
     }
     &.round {
       border-radius: 34px;
-      &::before {
+      &:before {
         border-radius: 50%;
       }
     }

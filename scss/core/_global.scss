@@ -10,15 +10,15 @@
         color: $color-value !important;
       }
       .rgba-#{$color_name}-slight,
-      .rgba-#{$color_name}-slight::after {
+      .rgba-#{$color_name}-slight:after {
         background-color: rgba($color_value, .1);
       }
       .rgba-#{$color_name}-light,
-      .rgba-#{$color_name}-light::after {
+      .rgba-#{$color_name}-light:after {
         background-color: rgba($color_value, .3);
       }
       .rgba-#{$color_name}-strong,
-      .rgba-#{$color_name}-strong::after {
+      .rgba-#{$color_name}-strong:after {
         background-color: rgba($color_value, .7);
       }
     }
@@ -103,13 +103,13 @@
 
 // Links
 a {
-  color: $link-color;
-  text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
+  color: $link-color;
   transition: $transition-basic;
   &:hover {
-    color: $link-hover-color;
     text-decoration: none;
+    color: $link-hover-color;
     transition: $transition-basic;
   }
   &.disabled,
@@ -120,41 +120,34 @@ a {
   }
 }
 
-a:not([href]):not([tabindex]),
-a:not([href]):not([tabindex]):focus,
-a:not([href]):not([tabindex]):hover {
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: inherit;
   text-decoration: none;
 }
 
 // Divider
 .divider-new {
-  display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  display: flex;
   margin-top: $divider-margin-y;
   margin-bottom: $divider-margin-y;
-  > h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  > h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
   }
-  &::before,
-  &::after {
-    flex: 1;
-    height: 1.5px;
-    height: $divider-height;
+  &:before,
+  &:after {
     content: "";
+    height: 1.5px;
+    flex: 1;
+    height: $divider-height;
     background: #c6c6c6;
   }
-  &::before {
+  &:before {
     margin: 0 $divider-margin-x 0 0;
   }
-  &::after {
+  &:after {
     margin: 0 0 0 $divider-margin-x;
   }
 }

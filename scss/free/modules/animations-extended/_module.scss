@@ -104,7 +104,7 @@
   }
 }
 
-.rubber-band {
+.rubberBand {
   animation-name: rubberBand;
 }
 
@@ -160,7 +160,7 @@
   }
 }
 
-.head-shake {
+.headShake {
   animation-name: headShake;
   animation-timing-function: ease-in-out;
 }
@@ -323,7 +323,7 @@
   }
 }
 
-.heart-beat {
+.heartBeat {
   animation-name: heartBeat;
   animation-duration: 1.3s;
   animation-timing-function: ease-in-out;
@@ -367,7 +367,7 @@
   }
 }
 
-.bounce-in {
+.bounceIn {
   animation-name: bounceIn;
   animation-duration: .75s;
 }
@@ -404,7 +404,7 @@
   }
 }
 
-.bounce-in-down {
+.bounceInDown {
   animation-name: bounceInDown;
 }
 
@@ -440,11 +440,11 @@
   }
 }
 
-.bounce-in-left {
+.bounceInLeft {
   animation-name: bounceInLeft;
 }
 
-@keyframes bounce-in-right {
+@keyframes bounceInRight {
   from,
   60%,
   75%,
@@ -476,7 +476,7 @@
   }
 }
 
-.bounce-in-right {
+.bounceInRight {
   animation-name: bounceInRight;
 }
 
@@ -512,7 +512,7 @@
   }
 }
 
-.bounce-in-up {
+.bounceInUp {
   animation-name: bounceInUp;
 }
 
@@ -533,7 +533,7 @@
   }
 }
 
-.bounce-out {
+.bounceOut {
   animation-name: bounceOut;
   animation-duration: .75s;
 }
@@ -555,7 +555,7 @@
   }
 }
 
-.bounce-out-down {
+.bounceOutDown {
   animation-name: bounceOutDown;
 }
 
@@ -571,7 +571,7 @@
   }
 }
 
-.bounce-out-left {
+.bounceOutLeft {
   animation-name: bounceOutLeft;
 }
 
@@ -587,7 +587,7 @@
   }
 }
 
-.bounce-out-right {
+.bounceOutRight {
   animation-name: bounceOutRight;
 }
 
@@ -608,7 +608,7 @@
   }
 }
 
-.bounce-out-up {
+.bounceOutUp {
   animation-name: bounceOutUp;
 }
 
@@ -624,7 +624,7 @@
   }
 }
 
-.fade-in-down-big {
+.fadeInDownBig {
   animation-name: fadeInDownBig;
 }
 
@@ -640,7 +640,7 @@
   }
 }
 
-.fade-in-left-big {
+.fadeInLeftBig {
   animation-name: fadeInLeftBig;
 }
 
@@ -656,7 +656,7 @@
   }
 }
 
-.fade-in-right-big {
+.fadeInRightBig {
   animation-name: fadeInRightBig;
 }
 
@@ -672,7 +672,7 @@
   }
 }
 
-.fade-in-up-big {
+.fadeInUpBig {
   animation-name: fadeInUpBig;
 }
 
@@ -687,7 +687,7 @@
   }
 }
 
-.fade-out-down-big {
+.fadeOutDownBig {
   animation-name: fadeOutDownBig;
 }
 
@@ -702,7 +702,7 @@
   }
 }
 
-.fade-out-left-big {
+.fadeOutLeftBig {
   animation-name: fadeOutLeftBig;
 }
 
@@ -717,7 +717,7 @@
   }
 }
 
-.fade-out-right-big {
+.fadeOutRightBig {
   animation-name: fadeOutRightBig;
 }
 
@@ -732,7 +732,7 @@
   }
 }
 
-.fade-out-up-big {
+.fadeOutUpBig {
   animation-name: fadeOutUpBig;
 }
 
@@ -794,7 +794,7 @@
   }
 }
 
-.flip-in-x {
+.flipInX {
   backface-visibility: visible;
   animation-name: flipInX;
 }
@@ -825,7 +825,7 @@
   }
 }
 
-.flip-in-y {
+.flipInY {
   backface-visibility: visible;
   animation-name: flipInY;
 }
@@ -846,7 +846,7 @@
   }
 }
 
-.flip-out-x {
+.flipOutX {
   animation-name: flipOutX;
   animation-duration: .75s;
   backface-visibility: visible;
@@ -868,7 +868,7 @@
   }
 }
 
-.flip-out-y {
+.flipOutY {
   animation-name: flipOutY;
   animation-duration: .75s;
   backface-visibility: visible;
@@ -894,7 +894,7 @@
   }
 }
 
-.light-speed-in {
+.lightSpeedIn {
   animation-name: lightSpeedIn;
   animation-timing-function: ease-out;
 }
@@ -910,7 +910,7 @@
   }
 }
 
-.light-speed-out {
+.lightSpeedOut {
   animation-name: lightSpeedOut;
   animation-timing-function: ease-in;
 }
@@ -929,7 +929,7 @@
   }
 }
 
-.rotate-in {
+.rotateIn {
   animation-name: rotateIn;
 }
 
@@ -947,7 +947,7 @@
   }
 }
 
-.rotate-in-down-left {
+.rotateInDownLeft {
   animation-name: rotateInDownLeft;
 }
 
@@ -965,7 +965,7 @@
   }
 }
 
-.rotate-in-down-right {
+.rotateInDownRight {
   animation-name: rotateInDownRight;
 }
 
@@ -983,7 +983,7 @@
   }
 }
 
-.rotate-in-up-left {
+.rotateInUpLeft {
   animation-name: rotateInUpLeft;
 }
 
@@ -1001,7 +1001,7 @@
   }
 }
 
-.rotate-in-up-right {
+.rotateInUpRight {
   animation-name: rotateInUpRight;
 }
 
@@ -1018,7 +1018,7 @@
   }
 }
 
-.rotate-out {
+.rotateOut {
   animation-name: rotateOut;
 }
 
@@ -1035,7 +1035,7 @@
   }
 }
 
-.rotate-out-down-left {
+.rotateOutDownLeft {
   animation-name: rotateOutDownLeft;
 }
 
@@ -1052,7 +1052,7 @@
   }
 }
 
-.rotate-out-down-right {
+.rotateOutDownRight {
   animation-name: rotateOutDownRight;
 }
 
@@ -1069,7 +1069,7 @@
   }
 }
 
-.rotate-out-up-left {
+.rotateOutUpLeft {
   animation-name: rotateOutUpLeft;
 }
 
@@ -1086,7 +1086,7 @@
   }
 }
 
-.rotate-out-up-right {
+.rotateOutUpRight {
   animation-name: rotateOutUpRight;
 }
 
@@ -1143,7 +1143,7 @@
   }
 }
 
-.jack-in-the-box {
+.jackInTheBox {
   animation-name: jackInTheBox;
 }
 
@@ -1161,7 +1161,7 @@
   }
 }
 
-.roll-in {
+.rollIn {
   animation-name: rollIn;
 }
 
@@ -1178,7 +1178,7 @@
   }
 }
 
-.roll-out {
+.rollOut {
   animation-name: rollOut;
 }
 
@@ -1193,7 +1193,7 @@
   }
 }
 
-.zoom-in {
+.zoomIn {
   animation-name: zoomIn;
 }
 
@@ -1211,7 +1211,7 @@
   }
 }
 
-.zoom-in-down {
+.zoomInDown {
   animation-name: zoomInDown;
 }
 
@@ -1229,7 +1229,7 @@
   }
 }
 
-.zoom-in-left {
+.zoomInLeft {
   animation-name: zoomInLeft;
 }
 
@@ -1247,7 +1247,7 @@
   }
 }
 
-.zoom-in-right {
+.zoomInRight {
   animation-name: zoomInRight;
 }
 
@@ -1265,7 +1265,7 @@
   }
 }
 
-.zoom-in-up {
+.zoomInUp {
   animation-name: zoomInUp;
 }
 
@@ -1284,7 +1284,7 @@
   }
 }
 
-.zoom-out {
+.zoomOut {
   animation-name: zoomOut;
 }
 
@@ -1303,7 +1303,7 @@
   }
 }
 
-.zoom-out-down {
+.zoomOutDown {
   animation-name: zoomOutDown;
 }
 
@@ -1320,7 +1320,7 @@
   }
 }
 
-.zoom-out-left {
+.zoomOutLeft {
   animation-name: zoomOutLeft;
 }
 
@@ -1337,7 +1337,7 @@
   }
 }
 
-.zoom-out-right {
+.zoomOutRight {
   animation-name: zoomOutRight;
 }
 
@@ -1356,7 +1356,7 @@
   }
 }
 
-.zoom-out-up {
+.zoomOutUp {
   animation-name: zoomOutUp;
 }
 
@@ -1371,7 +1371,7 @@
   }
 }
 
-.slide-in-down {
+.slideInDown {
   animation-name: slideInDown;
 }
 
@@ -1386,7 +1386,7 @@
   }
 }
 
-.slide-in-left {
+.slideInLeft {
   animation-name: slideInLeft;
 }
 
@@ -1401,7 +1401,7 @@
   }
 }
 
-.slide-in-right {
+.slideInRight {
   animation-name: slideInRight;
 }
 
@@ -1416,7 +1416,7 @@
   }
 }
 
-.slide-in-up {
+.slideInUp {
   animation-name: slideInUp;
 }
 
@@ -1431,7 +1431,7 @@
   }
 }
 
-.slide-out-down {
+.slideOutDown {
   animation-name: slideOutDown;
 }
 
@@ -1446,7 +1446,7 @@
   }
 }
 
-.slide-out-left {
+.slideOutLeft {
   animation-name: slideOutLeft;
 }
 
@@ -1461,7 +1461,7 @@
   }
 }
 
-.slide-out-right {
+.slideOutRight {
   animation-name: slideOutRight;
 }
 
@@ -1476,6 +1476,6 @@
   }
 }
 
-.slide-out-up {
+.slideOutUp {
   animation-name: slideOutUp;
 }
