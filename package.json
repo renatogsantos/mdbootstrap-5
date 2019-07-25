@@ -7,9 +7,10 @@
   "author": "MDBootstrap",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Test passed\""
+    "scss-lint": "stylelint \"scss/**/*.scss\""
   },
   "devDependencies": {
-    "stylelint": "^10.1.0"
+    "stylelint": "^10.1.0",
+    "stylelint-config-twbs-bootstrap": "^0.4.0"
   }
 }
