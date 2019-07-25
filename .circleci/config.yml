@@ -25,3 +25,4 @@ jobs:
 
       # run tests!
       - run: yarn scss:lint
+      - run: yarn scss:lint:vars
