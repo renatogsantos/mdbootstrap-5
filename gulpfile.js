@@ -4,7 +4,7 @@ const sass = require('gulp-sass');
 
 // CSS Tasks
 gulp.task('scss:compile', () => {
-  return gulp.src('scss/mdb.scss')
+  return gulp.src('scss/*.scss')
     .pipe(sass({
       outputStyle: 'nested'
     }))

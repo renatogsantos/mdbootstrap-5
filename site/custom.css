@@ -3,10 +3,10 @@
  */
 
 .mdb-logo {
-  width: 80px;
+  width: 55px;
   overflow: hidden;
   text-indent: -999px;
-  background-image: url("https://mdbootstrap.com/wp-content/uploads/2018/06/logo-mdb-jquery-small.png");
+  background-image: url("./logo-mdb-small-white.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -14,7 +14,20 @@
 
 .intro-section {
   display: flex;
-  min-height: 100vh;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
+}
+
+.btn-circle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 50%;
 }
