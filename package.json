@@ -9,13 +9,23 @@
   "scripts": {
     "scss:lint": "stylelint \"scss/**/*.scss\" --fix",
     "scss:lint:vars": "fusv scss/",
-    "netlify-collect-static": "sh build/netlify-deploy.sh"
+    "netlify-collect-static": "sh build/netlify-deploy.sh",
+    "js:compile:esm": "rollup -c --environment ESM:true --sourcemap"
   },
   "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "babel-plugin-istanbul": "^5.2.0",
     "find-unused-sass-variables": "^0.4.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-sass": "^4.0.2",
+    "rollup": "^1.18.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-istanbul": "^2.0.1",
     "stylelint": "^10.1.0",
     "stylelint-config-twbs-bootstrap": "^0.4.0"
   }
